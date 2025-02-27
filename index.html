@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <form action="main.html">
+        <div class="frame">
+            <div class="login-section">
+                <h1>Login</h1>
+                <div class="name details"><i class="fa-solid fa-user"></i><input type="text" name="Name" placeholder="Enter Full Name" required></div>
+                <div class="mail details"><i class="fa-solid fa-at"></i><input type="email" name="Email" placeholder="Enter your email" required></div> 
+                <div class="phone details"><i class="fa-solid fa-mobile"></i><input type="tel" name="Phone" placeholder="Enter your number" pattern="[0-9]{10}" required/></div> 
+                <div class="roll details"><i class="fa-regular fa-address-card"></i><input type="text" name="Roll" placeholder="Enter your Roll No" required></div>
+                <div class="branch sd"><label>Branch:</label><select name="branch">
+                    <option>MVLSI</option>
+                    <option>IT</option>
+                    <option>ECE</option>
+                    <option>CE</option>
+                    <option>ME</option>
+                    <option>CS</option>
+                </select></div>
+                <div class="year sd"><label>Year:</label><select name="year">
+                    <option>1st Year</option>
+                    <option>2nd Year</option>
+                    <option>3rd Year</option>
+                    <option>4th Year</option>
+                </select></div>
+                <div class="login-button"><input type="submit" value="Login"></div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

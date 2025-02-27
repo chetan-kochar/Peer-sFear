@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.login-section{
+    height: 600px;
+    width: 30%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px 25px 20px 25px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    margin-top: 15px; 
+}
+.details i{
+    margin-right: 10px;
+    color: #7d2ae8;
+    font-size: 1.5rem;
+}
+.login-section input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1rem;
+    outline: none;
+}
+.login-section h1{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline #7d2ae8;
+    font-weight: 600;
+    color: #333;
+}
+.frame{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    /* background-color: #7d2ae8; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTP71hq2VigVyFaAhVqYq_p1Zc-uxslwaM2Q&s");
+    background-size: contain;
+}
+.sd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 15px;
+    padding: 10px;
+    background: #f2f2f2;
+    border-radius: 5px;
+}
+.sd select{
+    width: 70%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.login-button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.login-button input{
+    width: 45%;
+    padding: 12px;
+    background-color: #7d2ae8;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login-button input:hover{
+    background-color: #5a1bb0;
+}
