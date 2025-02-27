@@ -2,26 +2,27 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #eef2f3;
+    background: #f4f7f9;
+    color: #333;
 }
 header {
-    background: linear-gradient(to right, #0073e6, #005bb5);
+    background: linear-gradient(to right, #1e3c72, #2a5298);
     color: white;
     text-align: center;
     padding: 30px 20px;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: white;
-    padding: 15px 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    margin: 10px auto;
+    margin: 20px auto;
     max-width: 90%;
 }
 nav ul {
@@ -31,12 +32,12 @@ nav ul {
     display: flex;
 }
 nav ul li {
-    margin-right: 40px;
+    margin-right: 50px;
     display: flex;
     align-items: center;
 }
 nav ul li a {
-    color: #005bb5;
+    color: #1e3c72;
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
@@ -45,11 +46,11 @@ nav ul li a {
     align-items: center;
 }
 nav ul li a i {
-    margin-right: 8px;
+    margin-right: 10px;
     font-size: 20px;
 }
 nav ul li a:hover {
-    color: #0073e6;
+    color: #2a5298;
 }
 .search-bar {
     display: flex;
@@ -58,14 +59,14 @@ nav ul li a:hover {
     padding: 12px 20px;
     border-radius: 30px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
-    border: 2px solid #005bb5;
-    width: 350px;
+    border: 2px solid #1e3c72;
+    width: 400px;
 }
 .search-bar input {
     border: none;
     outline: none;
     background: transparent;
-    padding: 8px;
+    padding: 10px;
     font-size: 16px;
     width: 100%;
 }
@@ -73,15 +74,15 @@ nav ul li a:hover {
     border: none;
     background: transparent;
     cursor: pointer;
-    color: #005bb5;
-    font-size: 18px;
+    color: #1e3c72;
+    font-size: 20px;
 }
 .auth {
     display: flex;
     align-items: center;
 }
 .auth a {
-    color: #005bb5;
+    color: #1e3c72;
     text-decoration: none;
     margin-right: 20px;
     font-size: 18px;
@@ -89,11 +90,11 @@ nav ul li a:hover {
     transition: color 0.3s;
 }
 .auth a:hover {
-    color: #0073e6;
+    color: #2a5298;
 }
 .profile-circle {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     overflow: hidden;
     background-color: #ddd;
@@ -114,14 +115,14 @@ nav ul li a:hover {
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 120px;
+    min-width: 150px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     z-index: 1;
 }
 .dropdown-content a {
-    color: #005bb5;
-    padding: 10px 15px;
+    color: #1e3c72;
+    padding: 12px 15px;
     text-decoration: none;
     display: block;
     font-size: 16px;
